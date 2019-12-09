@@ -1,0 +1,60 @@
+footer {
+    height: 540px;
+}
+footer .foot-t {
+    height:100px;
+    background:#f3f4f6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer .foot-t i {
+    display: block;
+    height:1px;
+    width:150px;
+    background: #bbbbbb;
+}
+footer .foot-t span {
+    font-size: 30px;
+    color:#bbb;
+    margin:0 50px;
+    font-weight: 800;
+}
+footer .foot-b{
+    background: #fff;
+    height:440px;
+}
+footer .foot-b .wechat {
+    height:90px;
+    border-top:1px solid #ddd;
+    border-bottom:1px solid #ddd;
+    margin:20px 0 ;
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+}
+footer .foot-b .service{
+    display: flex;
+    justify-content: space-between;
+    height:240px; 
+    border-bottom:1px solid #ddd;
+}
+footer .foot-b .service dl {
+    width: 120px;
+}
+footer .foot-b .service dl dt{
+    width:120px;
+    font:12px/2 ""; 
+    border-bottom:1px dashed #666;
+     font-weight: 800;
+     margin-bottom: 5px;
+    }
+footer .foot-b .service dl dd {
+    font:12px/22px "";
+    color:#888;
+}
+footer .foot-b .right {
+    font:12px/28px ""; 
+    color:#999999;
+    padding-top:15px;
+}

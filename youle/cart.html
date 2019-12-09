@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>商品购物车</title>
+    <link rel="stylesheet" href="css/public.css" />
+    <link rel="stylesheet" href="css/header.css" />
+    <link rel="stylesheet" href="css/footer.css" />
+    <link rel="stylesheet" href="css/cart.css" />
+</head>
+<body>
+    <header>
+        <div class="top layout"></div>
+
+    </header>
+    <section class="step">
+        <div class="layout">
+            <img src="imgs/logo.png">
+            <img src="imgs/step.png">
+        </div>
+    </section>
+    <section class="cart layout">
+        <h3>邮乐商品购物车</h3>
+        <table border="0" cellspacing="0" width="1200px">
+            <thead>
+                <tr>
+                    <th><input type="checkbox" class="allSelect">全选</th>
+                    <th>商品信息</th>
+                    <th></th>
+                    <th>单价价格</th>
+                    <th>数量</th>
+                    <th>价格合计</th>
+                    <th>操作</th>
+                </tr>
+            </thead>
+            <tbody></tbody>
+        </table>
+        <div class="bottom">
+            <span id="totalp" style="width:100px;display:block;">总价：</span>
+            <s>总数量：0</s>
+            <button>删除全部</button>
+            <a href="#">立刻购买</a>
+        </div>
+    </section>
+    <footer>
+
+    </footer>
+</body>
+<script src="libs/jquery.js"></script>
+<script src="libs/cookie.js"></script>
+<script src="libs/ajax.js"></script>
+<script src="javascript/cart.js"></script>
+<script src="javascript/load.js"></script>
+</html>

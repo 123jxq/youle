@@ -1,0 +1,74 @@
+.step {
+    border-bottom: 4px solid red; }
+    .step .layout {
+      height: 100px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center; }
+  
+  .cart {
+    font: 14px/2 "";
+    text-align: center; }
+    .cart h3 {
+      font: 20px/3 "";
+      margin-top: 10px;
+      border-bottom: 1px dashed #ccc; }
+    .cart table {
+      margin: 20px auto; }
+      .cart table .emptyc {
+        margin:30px 420px;
+        display: block;
+        width: 400px;}
+      .cart table thead {
+        font: 16px/2 "";
+        background: #ccc;
+        font-weight: 800; }
+      .cart table tr td {
+        width: 200px;
+        height: 200px; }
+        .cart table tr td img {
+          display: block;
+          margin: 0 auto;
+          width: 180px;
+          height: 180px; }
+        .cart table tr td input[type="checkbox"] {
+          width: 20px;
+          height: 20px;
+          border: 0; }
+        .cart table tr td input[type="number"] {
+          text-align: center;
+          height: 40px;
+          width: 80px; }
+      .cart table tr td.unitprice {
+        font: 20px/2 "";
+        color: red; }
+    .cart .bottom {
+      background: cornsilk;
+      height: 45px;
+      font: 16px/45px "";
+      margin-bottom: 50px; }
+      .cart .bottom span {
+        font: 20px/45px "";
+        float: left;
+        color: red; 
+        }
+      .cart .bottom s {
+        float: left;
+        margin: 0 80px; }
+      .cart .bottom button {
+        float: left;
+        border: 0;
+        color: #666;
+        width: 100px;
+        height: 45px; }
+      .cart .bottom a {
+        float: right;
+        width: 100px; 
+        background: coral;
+        display: block;
+        color: #fff;
+        margin-right: 30px; }
+      .cart .emptyimg {
+        width: 600px;
+        height:400px}
+      
