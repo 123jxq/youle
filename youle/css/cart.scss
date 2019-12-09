@@ -1,0 +1,85 @@
+$greycolor : #ccc;
+.step{
+    border-bottom: 4px solid red;
+    .layout{
+        height:100px;display:flex;justify-content:space-between;align-items: center;
+        
+    }
+}
+.cart{
+    font:14px/2 "";
+    text-align: center;
+    h3{
+        font:20px/3 "";margin-top:10px;border-bottom: 1px dashed $greycolor;
+  
+    }
+    table{
+        margin:20px auto;
+        thead{
+            font:16/2 "";
+            background: $greycolor;
+            font-weight: 800;
+        }
+        tr{
+            td{
+                width: 200px;
+                height: 200px;
+                img{
+                    display: block;
+                    margin: 0 auto;
+                    width: 180px;
+                    height:180px;
+                }
+                input[type="checked"]{
+                    width:20px;
+                    height:20px;
+                    border:0;
+                }
+                input[type="number"]{
+                    text-align:center;
+                    height:40px;
+                    width:80px;
+                }
+            }
+            td.unitprice{
+                font:20px/2 "";
+                color:red;
+            }
+        }
+    }
+    .bottom{
+        background: cornsilk;
+        height:45px;
+        font:16px/45px "";
+        margin-bottom:50px;
+        span{
+            margin-left:100px;
+            font:25px/45px "";
+            float: left;
+            color:red;
+        }
+        s{
+            float:left;
+            margin:0 100px;
+        }
+        button{
+            float:left;
+            border:0;
+            color:#666;
+            width:100px;
+            height:45px;
+        }
+        a{
+            float:right;
+            width:100px;
+            background:coral;
+            display:block;
+            color:#fff;
+            margin-right:30px;
+        }
+    }
+    .emptyimg{
+        width:600px;
+        height:400px;
+    }
+}
