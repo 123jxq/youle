@@ -5,37 +5,91 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>商品详情页</title>
+    <link rel="stylesheet" href="css/public.css" />
+    <link rel="stylesheet" href="css/header.css" />
+    <link rel="stylesheet" href="css/footer.css" />
+    <link rel="stylesheet" href="css/hizoom.css" />
+    <link rel="stylesheet" href="css/detail.css" />
+ 
 </head>
 <body>
     <header>
         <div class="top layout"></div>
     </header>
-
     <section class="search layout">
-        <img src="imgs/logo.png">
-        <div class="search-c">
-            <input type="text" placeholder="邮乐邮乐，疯狂再起">
-            <input type="submit" value="">
-            <p>
-                <span>精准扶贫</span>
-                <span>中国集邮</span>
-                <span>新鲜水果</span>
-                <span>年份</span>
-                <span>坚果茶铺</span>
-                <span>剃须刀</span>
-            </p>
+            <img src="imgs/logo.png" />
+            <div class="search-c">
+                <input type="text" placeholder="有了有了，狂欢在起">
+                <input type="submit" value="">
+                <p>
+                    <span>精准扶贫</span>
+                    <span>中国集邮</span>
+                    <span>新鲜水果</span>
+                    <span>年份</span>
+                    <span>坚果茶铺</span>
+                    <span>剃须刀</span>
+                </p>
+            </div>
             <a class="cart">
                 <img src="imgs/cart.png">
                 <b>购物车</b>
+                <span>|</span>
                 <s>0</s>
                 <i></i>
             </a>
-        </div>
+            </div>
+        </section>
+        <div id="location" class="layout"></div>
+        <section id="main" class="layout">
+            <div class="main-top">
+                <div class='hizoom gakki'>
+                        <img src='imgs/demo1.jpg'/>
+                </div>
+                <div class="introduce">
+                    <div class="introduce-1">
+                        <div class="goodsId">商品号: &nbsp;&nbsp;&nbsp;&nbsp;</div>
+                        <p class="price">价格 &nbsp;&nbsp;&nbsp;&nbsp;</p>
+                        <span>配送:&nbsp;&nbsp;&nbsp;&nbsp;上海市虹口区吴淞街道&nbsp;&nbsp;&nbsp;<s class="fee">商家承担运费</s></span>
+                        <p><i>服务:</i>&nbsp;&nbsp;&nbsp;&nbsp;本商品由邮乐网提供进行相关配送和售后等服务</p>
+                        <p>规格:&nbsp;&nbsp;&nbsp;&nbsp;<span><b>1kg</b></p>
+                        <p>数量:&nbsp;&nbsp;&nbsp;&nbsp;<input type="number" value="1" class="number"/></p>
+                        <div class="button">
+                            <a>立即购买</a> 
+                            <a class="cartJoin">加入购物车</a>
+                        </div>
+                    </div>       
+                </div>
+                
+            </div>
+            <ul></ul>
+        </section>
+        <section class="tab layout">
+            <ul>
+                <li class="active">商品详情</li>
+                <li>商品评论</li>
+                <li>物流配送</li>
 
-    </section>
-    <div id="location" class="layout"></div>
-    <section id="main" class="layout">
-        
-    </section>
+            </ul>
+            <div class="attr">
+                <h4>商品属性</h4>
+                <p><span>产地: 山东</span> <span>重量: 1.1kg以下</span> <span>包装方式: 筒装</span></p>
+            </div>
+            <div class="show">
+                <div class="detail"></div>
+                <div class="comment">
+                    <img src="imgs/comment.png"/>
+                </div>
+                <div class="express">
+                    <img src="imgs/express.png"/>
+                </div>
+            </div>
+
+        </section>
+    <footer></footer>
 </body>
+<script src="libs/jquery.js"></script>
+<script src="libs/cookie.js"></script>
+<script src="libs/hizoom.js"></script>
+<script src="javascript/detail.js"></script>
+<script src="javascript/load.js"></script>
 </html>
