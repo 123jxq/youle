@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>用户登录</title>
+    <link rel="stylesheet" href="css/public.css" />
+    <link rel="stylesheet" href="css/header.css" />
+    <link rel="stylesheet" href="css/footer.css" />
+    <link rel="stylesheet" href="css/login.css" />
+</head>
+<body>
+    <header>
+        <div class="top layout"></div>
+    </header>
+    <section class="logo">
+        <div class="layout">
+
+            <form>
+                <img src="imgs/code2.png" class="code">
+                <h3>用户登录</h3>
+                <div class="field">
+                    <input type="text" id="login-tel" name="" placeholder="手机号码">
+                    <span id="tel-warn"></span>
+                </div>
+                <p class="warn"></p>
+                <div class="field">
+                    <input type="password" id="login-key" name="" placeholder="用户密码">
+                    <span id="key-warn"></span>
+                </div>
+
+                <span><a href="register.html">咋还没有账号？立即注册吧！</a><a class="pForget">忘记密码 ?</a></span>
+                <div class="field">
+                    <a id="login-btn">立即登录</a>
+                </div>
+                <img src="imgs/qq.png" class="qq">
+            </form>
+        </div>
+    </section>
+    <footer></footer>
+</body>
+<script src="libs/jquery.js"></script>  
+<script src="libs/cookie.js"></script>
+<script src="javascript/login.js"></script>
+<script src="javascript/load.js"></script>
+</html>
