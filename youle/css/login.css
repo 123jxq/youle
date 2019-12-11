@@ -1,64 +1,67 @@
-.logo{
-    height:90px;
-    border-bottom:3px solid red;
-    padding-top:20px;
-}
-.login{
-    height:450px;
-    background:#f7f7f7;
-    padding-top:20px;
+.logo {
+    height: 90px;
+    border-bottom: 3px solid red;
+    padding-top: 20px;
 }
 
-.login .layout{
-    background:#fff;
-    height:450px;
+.login {
+    height: 450px;
+    background: #f7f7f7;
+    padding-top: 20px;
+}
+
+.login .layout {
+    background: #fff;
+    height: 450px;
     overflow: hidden;
-    background:url("../imgs/banner5.jpg") no-repeat;
+    background: url("../imgs/banner5.jpg") no-repeat;
+
 }
 
-.login h3{
-    font:20px/2.5 "";
+.login h3 {
+    font: 20px/2.5 "";
+
+
+
 }
 
-.login form{
-    height:430px;
-    width:290px;
-    padding-left:30px;
-    background:#fff;
-    margin:20px 0 10px 0;
-    padding-left:10px;
+.login form {
+    height: 430px;
+    width: 290px;
+    padding-left: 30px;
+    background: #fff;
+    margin: 10px 0 0 700px;
+    position: relative;
+
 }
 
-.code{
-    position:absolute;
-    right:0;
-    top:0;
+
+.login input {
+    width: 240px;
+    height: 30px;
+    border: 1px solid #ccc;
+    margin: 20px 0 10px 0;
+    padding-left: 10px;
 }
 
-#login-btn{
-    background:red;
-    display:block;
-    width:250px;
-    font:18px/2 "";
-    text-align:center;
-    color:#fff;
-    font-weight:800;
-    margin-top:15px;
+.code {
+    position: absolute;
+    right: 0;
+    top: 0;
 }
-form span a {
-    color:blue;
-    font:12px/2 "";
+
+
+#login-btn {
+    background: red;
+    display: block;
+    width: 250px;
+    font: 18px/2 "";
+    text-align: center;
+    color: #fff;
+    font-weight: 800;
+    margin-top: 15px;
 }
-.pForget{
-    margin-left:65px;
-}
-.qq{
-    position:absolute;
-    bottom:20px;
-    left:15px;
-}
-.warn{
-    color:red;
-    margin-left:10px;
-    font:12px/20px "";
-}
+form span a {color:blue;font:12px/2 "";}
+.pForget {margin-left:65px;}
+.qq {position: absolute;bottom: 20px;left: 15px;}
+.warn {color:red;margin-left: 10px; font:12px/20px "";}

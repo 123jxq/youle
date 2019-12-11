@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>邮乐登录注册</title>
+    <link rel="stylesheet" href="css/public.css" />
+    <link rel="stylesheet" href="css/header.css" />
+    <link rel="stylesheet" href="css/footer.css" />
+    <link rel="stylesheet" href="css/register.css" />
+
+
+</head>
+
+<body>
+    <header>
+        <div class="top layout"></div>
+    </header>
+    <section class="logo">
+        <div class="layout">
+            <img src="imgs/logo.png" />
+        </div>
+    </section>
+    <section class="login">
+        <div class="layout">
+            <h3>新用户注册</h3>
+            <form>
+                <div class="table">
+                    <div class="field">
+                        手机号码
+                        <input type="text" id="tel" name="">
+                        <span id="tel-warn"></span>
+                    </div>
+
+                    <div class="field">
+                        设置密码
+                        <input type="password" id="key" name="">
+                        <span id="key-warn"></span>
+                    </div>
+                    <div class="field">
+                        确认密码
+                        <input type="password" id="key2" name="">
+                        <span id="key2-warn"></span>
+                    </div>
+
+                    <div class="cbox">
+                        <input type="checkbox" id="check" name="">
+                        <p>我接受<a href="#">《邮乐用户协议》 《隐私权政策》</a>及其相关的条款和条件</p>
+                        <span id="key3-warn"></span>
+                    </div>
+
+
+                    <div class="field">
+
+                        <a id="btn">立即注册</a>
+                    </div>
+                </div>
+
+            </form>
+        </div>
+    </section>
+    <footer></footer>
+</body>
+<script src="libs/jquery.js"></script>
+<script src="libs/cookie.js"></script>
+<script src="javascript/register.js"></script>
+<script src="javascript/load.js"></script>
+
+</html>

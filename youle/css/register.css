@@ -1,0 +1,81 @@
+.logo {
+    height: 90px;
+    border-bottom: 3px solid red;
+    padding-top: 20px;
+}
+
+.login {
+    height: 450px;
+    background: #f7f7f7;
+    padding-top: 50px;
+}
+
+.login .layout {
+    background: #fff;
+    height: 450px;
+    overflow: hidden;
+}
+
+.login h3 {
+    font: 20px/2.5 "";
+    width: 150px;
+    text-align: center;
+    border: 1px solid #f7f7f7;
+    margin: 30px 0 0 40px;
+}
+
+.login form {
+    height: 270px;
+    border-top: 1px solid #ccc;
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+}
+.login form .table{
+     width: 800px;
+     padding-left: 200px;
+}
+
+.login input {
+    width: 300px;
+    height: 30px;
+    border: 1px solid #ccc;
+    margin: 15px 0 15px 20px;
+    padding-left:10px;
+}
+
+.cbox {
+    height:30px;
+    width: 400px;
+    margin:0 0 10px 50px;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.cbox #key3-warn {
+    position: absolute;
+    left:400px;
+    width: 240px;
+}
+#check{
+    width: 15px;
+    height:15px;
+    float: left;
+}
+.cbox p {
+    float:left;
+    font:12px/15px "";
+    margin: 0 10px;
+}
+.cbox span {
+    float:left;
+}
+#btn {
+    width: 300px; 
+    font:15px/3 ""; 
+    color:blueviolet;
+    background: skyblue;
+    display: block;
+    text-align: center;
+    margin-left: 75px;
+}
