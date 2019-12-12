@@ -1,6 +1,6 @@
 class Car{
     constructor(){
-        this.url = this.url = "http://localhost/project/data/data.json";
+        this.url = this.url = "http://localhost/youle/data/data.json";
         this.tbody = document.querySelector("tbody");
         this.table = document.querySelector("table");
         

@@ -8,9 +8,9 @@ var oKeywarn = document.getElementById("key-warn");
 var oKeywarn2 = document.getElementById("key2-warn");
 var oKeywarn3 = document.getElementById("key3-warn");
 var ocheck = document.getElementById("check");
-var reg = /^1[34578]\d{9}$/ //11位手机号
-var reg2 = /^\w{6,12}$/ //  字母数字下划线
-//设置失焦事件
+var reg = /^1[34578]\d{9}$/
+var reg2 = /^\w{6,12}$/ 
+
 oTel.onblur = fnTel;
 oKey.onblur = fnKey;
 oKey2.onblur = fnKey2;

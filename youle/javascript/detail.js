@@ -3,7 +3,7 @@ $('.gakki').hiZoom({
     position: 'right'
 });
 $.ajax({
-url: "http://localhost/project/data/data.json",
+url: "http://localhost/youle/data/data.json",
 dataType: "json",
 success: function (data) {
     display(data);

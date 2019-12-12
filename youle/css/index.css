@@ -130,7 +130,7 @@ nav ul#category li i {
 }
 /* nav #cateshow div:nth-child(4) {display:block;} */
 .cate-2-l {
-    float:left
+    float:left;
 }
 .cate-2 .cate-2-l div {
     height:62px;
@@ -167,6 +167,7 @@ nav ul#category li i {
     height:340px;
     margin:60px 0 0 30px;
 }
+
 
 .banner {
     height:500px;
